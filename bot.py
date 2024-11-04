@@ -136,7 +136,7 @@ class ResultFormatter:
             return answer
 
         titles_string = '\n'.join(links)
-        titles_formatted = f"Relevant documents:\n{titles_string}"
+        titles_formatted = f"Relevant documents in the FAIRiCUBE Knowledge Base:\n{titles_string}"
         response = f"{answer}\n\n{titles_formatted}"
         return response
 
