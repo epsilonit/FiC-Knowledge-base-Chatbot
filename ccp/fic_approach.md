@@ -1,0 +1,1 @@
+# How to reuse the FAIRiCUBE approach

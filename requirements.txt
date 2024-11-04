@@ -1,0 +1,15 @@
+torch
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-core
+unstructured
+unstructured[md]
+chromadb
+python-dotenv
+gradio
+openai
+tiktoken
+requests
+nltk
