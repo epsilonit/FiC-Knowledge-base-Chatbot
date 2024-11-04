@@ -25,7 +25,7 @@ answer_bot = gr.ChatInterface(kb_bot.process_chat,
                                           "and applications in environmental and spatial data science. With an "
                                           "intuitive interface, it efficiently retrieves project information, "
                                           "clarifies technical aspects, and directs users to relevant documents and "
-                                          "data sources within the FAIRiCUBE knowledge base.",
+                                          "data sources within the FAIRiCUBE knowledge base. ",
                               theme="soft",
                               stop_btn="Interrupt",
                               submit_btn="Ask",
