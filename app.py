@@ -32,4 +32,5 @@ answer_bot = gr.ChatInterface(kb_bot.process_chat,
                               type="tuples"
                               )
 
+answer_bot.queue(default_concurrency_limit=None)
 answer_bot.launch(share=True)
