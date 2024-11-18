@@ -26,7 +26,7 @@ answer_bot = gr.ChatInterface(kb_bot.process_chat,
                                           "intuitive interface, it efficiently retrieves project information, "
                                           "clarifies technical aspects, and directs users to relevant documents and "
                                           "data sources within the FAIRiCUBE knowledge base. "
-                                          "Use the text box at the bottom of the page to ask your question about the FAIRiCUBE project and the Knowledge Base.",
+                                          "\n\nUse the text box at the bottom of the page to ask your question about the FAIRiCUBE project and the Knowledge Base.",
                               theme="soft",
                               stop_btn="Interrupt",
                               submit_btn="Ask",
