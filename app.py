@@ -11,7 +11,7 @@ kb_bot = bot.KnowledgeBaseBot()
 
 # Set up chatbot interface
 answer_bot = gr.ChatInterface(kb_bot.process_chat,
-                              chatbot=gr.Chatbot(height=500, type="tuples"),
+                              chatbot=gr.Chatbot(type="tuples"),
                               textbox=gr.Textbox(placeholder="Type your question about the FAIRiCUBE project or "
                                                              "knowledge base here...", container=False,
                                                  scale=7),
@@ -25,7 +25,8 @@ answer_bot = gr.ChatInterface(kb_bot.process_chat,
                                           "and applications in environmental and spatial data science. With an "
                                           "intuitive interface, it efficiently retrieves project information, "
                                           "clarifies technical aspects, and directs users to relevant documents and "
-                                          "data sources within the FAIRiCUBE knowledge base. ",
+                                          "data sources within the FAIRiCUBE knowledge base. "
+                                          "Use the text box at the bottom of the page to ask your question about the FAIRiCUBE project and the Knowledge Base.",
                               theme="soft",
                               stop_btn="Interrupt",
                               submit_btn="Ask",
