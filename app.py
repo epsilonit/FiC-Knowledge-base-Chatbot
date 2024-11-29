@@ -7,7 +7,7 @@ import vector_store_builder
 #    print('Vector store building...')
 #    vector_store_builder.build_vector_store()
 
-kb_bot = bot.KnowledgeBaseBot()
+kb_bot = bot.KnowledgeBaseBot(persist_directory='./kb_chroma_db_v2')
 
 # Set up chatbot interface
 answer_bot = gr.ChatInterface(kb_bot.process_chat,
